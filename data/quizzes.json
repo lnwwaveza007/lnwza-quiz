@@ -1,0 +1,927 @@
+{
+  "quizzes": [
+    {
+      "id": "132a866e-8c7a-4bdf-a35c-f1f18ce60d19",
+      "title": "INT305_Week01 Introduction to XML and DTD.pdf",
+      "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+      "createdAt": "2025-09-09T15:27:08.882Z",
+      "questionCount": 20,
+      "questions": [
+        {
+          "id": "xml-1",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "prompt": "What is XML?",
+          "options": [
+            {
+              "id": "xml-1-a",
+              "text": "eXtensible Markup Language",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-1-b",
+              "text": "Extended Modeling Language",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-1-c",
+              "text": "Extensible Machine Language",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-1-d",
+              "text": "External Management Language",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [
+            "eXtensible Markup Language"
+          ],
+          "explanation": "XML stands for eXtensible Markup Language.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                4
+              ],
+              "snippets": [
+                "eXtensible Markup Language (XML)"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML"
+          ]
+        },
+        {
+          "id": "xml-2",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "Which of the following best describes the role of XML as a metalanguage?",
+          "options": [
+            {
+              "id": "xml-2-a",
+              "text": "A language for executing complex machine instructions.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-2-b",
+              "text": "A language used to describe other languages, enabling customized tags and functionality.",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-2-c",
+              "text": "A language for rendering graphics in web browsers.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-2-d",
+              "text": "A language used to manage databases.",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "XML is a metalanguage, meaning it's 'a language for describing other languages' that allows designers to create custom tags and provide functionality not available with HTML.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                4
+              ],
+              "snippets": [
+                "A metalanguage (a language for describing other languages) that enables designers to create their own customized tags to provide functionality not available with HTML"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Metalanguage"
+          ]
+        },
+        {
+          "id": "xml-3",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "What is SGML?",
+          "options": [
+            {
+              "id": "xml-3-a",
+              "text": "A simplified version of XML",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-3-b",
+              "text": "A standard for creating web pages.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-3-c",
+              "text": "A restricted version of XML",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-3-d",
+              "text": "A system for defining structured document types and markup languages to represent instances of those document types",
+              "isCorrect": true
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "SGML (Standard Generalized Markup Language) is a system for defining structured document types and markup languages to represent instances of those document types.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                5
+              ],
+              "snippets": [
+                "Is a system for defining structured document types and markup languages to represent instances of those document types"
+              ]
+            }
+          },
+          "topicTags": [
+            "SGML"
+          ]
+        },
+        {
+          "id": "xml-4",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "prompt": "Which of the following is an advantage of XML?",
+          "options": [
+            {
+              "id": "xml-4-a",
+              "text": "Complexity",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-4-b",
+              "text": "Simplicity",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-4-c",
+              "text": "Limited Extensibility",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-4-d",
+              "text": "Platform Dependence",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "XML has several advantages, including simplicity (tex-based, human-legible).",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                6
+              ],
+              "snippets": [
+                "Simplicity (tex-based, human-legible)"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Advantages"
+          ]
+        },
+        {
+          "id": "xml-5",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "What are the key components of an XML document?",
+          "options": [
+            {
+              "id": "xml-5-a",
+              "text": "Root element, elements, and attributes",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-5-b",
+              "text": "Root element, attributes, and functions",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-5-c",
+              "text": "Attributes, functions, and classes",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-5-d",
+              "text": "Elements, objects, and functions",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "XML documents contain key components such as the root element, other elements, and attributes.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                8
+              ],
+              "snippets": [
+                "XML declaration",
+                "Root element",
+                "Elements",
+                "Attributes"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Elements",
+            "Attributes"
+          ]
+        },
+        {
+          "id": "xml-6",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "In XML, how are elements defined?",
+          "options": [
+            {
+              "id": "xml-6-a",
+              "text": "Elements begin with an end-tag and end with a start-tag.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-6-b",
+              "text": "Elements or tags are the least common form of markup.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-6-c",
+              "text": "Elements begin with a start-tag and end with an end-tag.",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-6-d",
+              "text": "Elements are not case-sensitive.",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "In XML, elements begin with a start-tag and end with an end-tag. XML elements are also case-sensitive.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                9
+              ],
+              "snippets": [
+                "Elements or tags are most common form of markup.",
+                "Element begin with start-tag and end with end-tag.",
+                "XML elements are case-sensitive"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Elements"
+          ]
+        },
+        {
+          "id": "xml-7",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "prompt": "What is the purpose of attributes in XML?",
+          "options": [
+            {
+              "id": "xml-7-a",
+              "text": "To define the structure of the XML document.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-7-b",
+              "text": "To provide descriptive information about an element.",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-7-c",
+              "text": "To create new elements in the XML document.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-7-d",
+              "text": "To define comments in the XML document.",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "Attributes in XML are name-value pairs that contain descriptive information about an element.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                10
+              ],
+              "snippets": [
+                "Attributes are name-value pairs that contain descriptive information about an element"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Attributes"
+          ]
+        },
+        {
+          "id": "xml-8",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "What is the proper way to embed an attribute in XML?",
+          "options": [
+            {
+              "id": "xml-8-a",
+              "text": "<ELEMENT_NAME attributeName = attributeValue></ELEMENT_NAME>",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-8-b",
+              "text": "<ELEMENT_NAME attributeName = \"attributeValue\">",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-8-c",
+              "text": "<ELEMENT_NAME> attributeName = attributeValue </ELEMENT_NAME>",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-8-d",
+              "text": "<ELEMENT_NAME> <attributeName = attributeValue> </ELEMENT_NAME>",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "The proper way to embed an attribute in XML is to do so within the start tag.  The attribute value is enclosed in quotes.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                10
+              ],
+              "snippets": [
+                "Attribute is placed inside start-tag after corresponding element name with the attribute value enclosed in quotes."
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Attributes"
+          ]
+        },
+        {
+          "id": "xml-9",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "prompt": "What is the purpose of comments in XML?",
+          "options": [
+            {
+              "id": "xml-9-a",
+              "text": "To define the structure of the document.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-9-b",
+              "text": "To provide documentation and notes within the XML file that are ignored by the parser.",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-9-c",
+              "text": "To execute functions within the XML document.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-9-d",
+              "text": "To define variables in the XML document.",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "Comments in XML are used to provide documentation and notes within the XML file. They are ignored by the XML parser.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                11
+              ],
+              "snippets": [
+                "Comments",
+                "<!-- This is a comment -->"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Comments"
+          ]
+        },
+        {
+          "id": "xml-10",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "What is the purpose of entity references in XML?",
+          "options": [
+            {
+              "id": "xml-10-a",
+              "text": "To define the structure of the document.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-10-b",
+              "text": "To serve as shortcuts to often-repeated text or to include the content of external files.",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-10-c",
+              "text": "To define functions within the XML document.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-10-d",
+              "text": "To define variables in the XML document.",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "Entity references serve three main purposes, including acting as shortcuts to often-repeated text or including the content of external files.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                12
+              ],
+              "snippets": [
+                "Entities serve three main purposes:",
+                "as shortcut to often-repeated text or include the content of external files"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Entity References"
+          ]
+        },
+        {
+          "id": "xml-11",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "What is the purpose of a CDATA section in XML?",
+          "options": [
+            {
+              "id": "xml-11-a",
+              "text": "To define a new element in XML.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-11-b",
+              "text": "To instruct the XML processor to ignore markup characters and pass the enclosed text directly to the application without interpretation.",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-11-c",
+              "text": "To create comments in XML.",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-11-d",
+              "text": "To declare a constant value in XML.",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "A CDATA section in XML instructs the XML processor to ignore markup characters and pass the enclosed text directly to the application without interpretation.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                13
+              ],
+              "snippets": [
+                "A CDATA section instructs the XML processor to ignore markup characters and pass the enclosed text directly to the application without interpretation."
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "CDATA"
+          ]
+        },
+        {
+          "id": "xml-12",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "In XML, are elements ordered or unordered?",
+          "options": [
+            {
+              "id": "xml-12-a",
+              "text": "Unordered",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-12-b",
+              "text": "Ordered",
+              "isCorrect": true
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "In XML, elements are ordered, meaning the sequence in which they appear matters.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                14
+              ],
+              "snippets": [
+                "In XML, elements are ordered."
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Ordering"
+          ]
+        },
+        {
+          "id": "data-1",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "prompt": "What best describes semi-structured data?",
+          "options": [
+            {
+              "id": "data-1-a",
+              "text": "Data with a fixed schema.",
+              "isCorrect": false
+            },
+            {
+              "id": "data-1-b",
+              "text": "Data that has some structure, but may not be regular or complete.",
+              "isCorrect": true
+            },
+            {
+              "id": "data-1-c",
+              "text": "Data that has no structure.",
+              "isCorrect": false
+            },
+            {
+              "id": "data-1-d",
+              "text": "Data stored in relational databases.",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "Semi-structured data is 'Data that has some structure, but may not be regular or complete'.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                3
+              ],
+              "snippets": [
+                "Data that has some structure, but may not be regular or complete"
+              ]
+            }
+          },
+          "topicTags": [
+            "Semi-structured Data"
+          ]
+        },
+        {
+          "id": "data-2",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "What does it mean for semi-structured data to be 'schema-less'?",
+          "options": [
+            {
+              "id": "data-2-a",
+              "text": "It conforms to a fixed schema.",
+              "isCorrect": false
+            },
+            {
+              "id": "data-2-b",
+              "text": "It does not conform to a fixed schema.",
+              "isCorrect": true
+            },
+            {
+              "id": "data-2-c",
+              "text": "It is only for relational databases.",
+              "isCorrect": false
+            },
+            {
+              "id": "data-2-d",
+              "text": "The schema is separate from the data.",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "Schema-less means semi-structured data does 'not conform to a fixed schema'.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                3
+              ],
+              "snippets": [
+                "Does not conform to a fixed schema (schema-less or self-describing)"
+              ]
+            }
+          },
+          "topicTags": [
+            "Semi-structured Data",
+            "Schema-less"
+          ]
+        },
+        {
+          "id": "data-3",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "Where is the schema information contained in semi-structured data?",
+          "options": [
+            {
+              "id": "data-3-a",
+              "text": "In a separate schema file.",
+              "isCorrect": false
+            },
+            {
+              "id": "data-3-b",
+              "text": "Within the data itself.",
+              "isCorrect": true
+            },
+            {
+              "id": "data-3-c",
+              "text": "In the database metadata.",
+              "isCorrect": false
+            },
+            {
+              "id": "data-3-d",
+              "text": "Nowhere, it is not needed.",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "The schema information for semi-structured data is contained within the data itself.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                3
+              ],
+              "snippets": [
+                "Information about a schema is contained within the data itself"
+              ]
+            }
+          },
+          "topicTags": [
+            "Semi-structured Data",
+            "Schema"
+          ]
+        },
+        {
+          "id": "advantages-1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "prompt": "Which of the following are advantages of using XML? (Select all that apply)",
+          "options": [
+            {
+              "id": "advantages-1-a",
+              "text": "Simplicity",
+              "isCorrect": true
+            },
+            {
+              "id": "advantages-1-b",
+              "text": "Complexity",
+              "isCorrect": false
+            },
+            {
+              "id": "advantages-1-c",
+              "text": "Open standard and platform/vendor-independent",
+              "isCorrect": true
+            },
+            {
+              "id": "advantages-1-d",
+              "text": "Limited extensibility",
+              "isCorrect": false
+            },
+            {
+              "id": "advantages-1-e",
+              "text": "Extensibility",
+              "isCorrect": true
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "Advantages of XML include simplicity, open standard and platform/vendor-independence, and extensibility.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                6
+              ],
+              "snippets": [
+                "Simplicity (tex-based, human-legible)",
+                "Open standard and platform/vendor-independent",
+                "Extensibility (define your own tags)"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Advantages"
+          ]
+        },
+        {
+          "id": "sgml-2",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "According to the slides, what are the two components that SGML allows a document to be logically separated into?",
+          "options": [
+            {
+              "id": "sgml-2-a",
+              "text": "Code and Data",
+              "isCorrect": false
+            },
+            {
+              "id": "sgml-2-b",
+              "text": "Markup and Content",
+              "isCorrect": false
+            },
+            {
+              "id": "sgml-2-c",
+              "text": "The structure of the document (Document Type Definition) and Text",
+              "isCorrect": true
+            },
+            {
+              "id": "sgml-2-d",
+              "text": "The header and body",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "SGML allows a document to be logically separated into two parts: the structure of the document called Document Type Definition (DTD) and Text.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                5
+              ],
+              "snippets": [
+                "SGML allows a document to be logically separated into two:",
+                "The structure of the document called Document Type Definition (DTD)",
+                "Text"
+              ]
+            }
+          },
+          "topicTags": [
+            "SGML",
+            "Document Structure",
+            "DTD"
+          ]
+        },
+        {
+          "id": "xml-13",
+          "type": "single_choice",
+          "difficulty": "medium",
+          "prompt": "According to the slides, what does the XML declaration specify?",
+          "options": [
+            {
+              "id": "xml-13-a",
+              "text": "The styling rules for the document",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-13-b",
+              "text": "The default behavior of the browser",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-13-c",
+              "text": "The XML version, encoding, and standalone status.",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-13-d",
+              "text": "The location of external resources",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "XML declaration specifies the XML version, character encoding, and whether the document is standalone.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                8,
+                11
+              ],
+              "snippets": [
+                "<?xml version= \"1.0\" encoding= \"UTF-8\" standalone= \"no\"?>",
+                "XML declaration"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "XML Declaration"
+          ]
+        },
+        {
+          "id": "xml-14",
+          "type": "single_choice",
+          "difficulty": "easy",
+          "prompt": "In the context of XML, what is the purpose of the root element?",
+          "options": [
+            {
+              "id": "xml-14-a",
+              "text": "To define attributes for other elements",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-14-b",
+              "text": "To serve as the top-level element that contains all other elements",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-14-c",
+              "text": "To specify the stylesheet for the document",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-14-d",
+              "text": "To declare entity references",
+              "isCorrect": false
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "The root element in XML is the top-level element that contains all other elements in the document.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                8,
+                9
+              ],
+              "snippets": [
+                "Root element",
+                "First element must be a root element, which can contain other (sub)elements."
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Root Element"
+          ]
+        },
+        {
+          "id": "xml-15",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "prompt": "According to the slides, what are the key benefits of XML? (Select all that apply)",
+          "options": [
+            {
+              "id": "xml-15-a",
+              "text": "Improved load balancing",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-15-b",
+              "text": "Support for the integration of data from multiple sources",
+              "isCorrect": true
+            },
+            {
+              "id": "xml-15-c",
+              "text": "Vendor Lock-In",
+              "isCorrect": false
+            },
+            {
+              "id": "xml-15-d",
+              "text": "Extensibility",
+              "isCorrect": true
+            }
+          ],
+          "shortAnswerAccepted": [],
+          "explanation": "XML offers several advantages, including improved load balancing, support for integrating data from multiple sources, and extensibility, making it versatile for diverse applications.",
+          "source": {
+            "pdfName": "INT305_Week01 Introduction to XML and DTD.pdf",
+            "evidence": {
+              "pageNumbers": [
+                6,
+                7
+              ],
+              "snippets": [
+                "Improved load balancing (delivered to the browser for local computation)",
+                "Support for the integration of data from multiple sources"
+              ]
+            }
+          },
+          "topicTags": [
+            "XML",
+            "Benefits"
+          ]
+        }
+      ],
+      "status": "draft"
+    }
+  ]
+}
