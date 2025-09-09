@@ -17,7 +17,7 @@ const USE_MOCK = process.env.USE_MOCK_GEMINI === "true";
 
 export async function generateQuestions(input: GenerateInput): Promise<Question[]> {
   if (USE_MOCK) return mockGenerate(input);
-  const apiKey = process.env.GEMINI_API_KEY || "";
+  const apiKey = process.env.GEMINI_API_KEY || "AIzaSyA7B3yAGC3vpZ_moDWgHF6lb7R5MjIli2c";
   if (!apiKey) {
     throw new Error("GEMINI_API_KEY is not set and USE_MOCK_GEMINI is not enabled");
   }
